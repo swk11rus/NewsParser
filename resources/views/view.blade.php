@@ -1,5 +1,5 @@
 <?php 
-	include("D:\php\lenta\public\getnews.php");
+	include("getnews.php");
 	
 	$id = $_GET['id'] < 1 ? 0 : $_GET['id'] ;
 	$url = "https://lenta.ru/rss/news";
